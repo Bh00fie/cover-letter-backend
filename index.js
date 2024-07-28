@@ -15,7 +15,7 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
 
 // Root route
 app.get('/', (req, res) => {
-    res.send('Welcome to the homepage!');
+    res.send('The server is running !');
 });
 
 // Auth routes
